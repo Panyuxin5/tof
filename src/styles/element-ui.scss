@@ -1,0 +1,288 @@
+// cover some element-ui styles
+
+$tableHeaderBg:#f1f1f1;
+$tableHeadercl:#333;
+$tableHeaderfs:14px;
+$tablecl:#444; //table color
+
+$buttonSearchBg: #FFAE3D; //
+$buttonAddBg: #0893fd;
+$buttonEditBg: #3abf2d;
+$buttonDeleteBg: #ff403d;
+$buttonColor:#fff;
+
+
+$inputHeight: 36PX; //element 默认40PX
+$buttonHeight: 36PX; //
+$buttonWidth: 76PX; //
+
+
+$buttonBackHeight:38PX;
+$buttonBackHeight:38PX;
+$buttonBackWidth:100PX;
+$buttonBackBg:#e5e5e5;
+$buttonBackCl:#444;
+
+
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+// dropdown
+.el-dropdown-menu {
+  a {
+    display: block
+  }
+}
+
+// to fix el-date-picker css style
+.el-range-separator {
+  box-sizing: content-box;
+}
+
+/*
+重置一些element ui的样式  cover-elementui 下的重置
+*/
+.cover-elementui .el-input__inner {
+  height: 32px;
+  line-height: 32px;
+}
+
+.cover-elementui .el-input__icon {
+  line-height: 32px;
+}
+
+.cover-elementui .el-input__inner {
+  background-color: transparent;
+}
+.specialDialog{
+  .el-dialog{
+    margin: 0;
+    margin-left: 250px;
+  }
+  .el-radio{
+    width: 190px;
+  }
+}
+.cover-elementui .el-dialog,
+.el-pager li {
+  background-color: transparent;
+}
+.el-time-panel__footer{
+  font-size: 0px;
+}
+.el-carousel__button{
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
+// element button 重置 设置class = button 时
+.button {
+  height: $buttonHeight;
+  line-height: $buttonHeight;
+  padding: 0 12PX;
+  width: $buttonWidth;
+}
+
+.button-back {
+  height: $buttonBackHeight;
+  line-height: $buttonBackHeight;
+  padding: 0 12PX;
+  width: $buttonBackWidth;
+  color: $buttonBackCl;
+  background-color: $buttonBackBg;
+  border-color: $buttonBackBg;
+  margin-right: 10px;
+}
+
+.button-back:hover {
+  background-color: $buttonBackBg;
+  border-color: $buttonBackBg;
+  color: $buttonBackCl;
+  opacity: 0.8;
+}
+
+.button-save {
+  height: $buttonBackHeight;
+  line-height: $buttonBackHeight;
+  padding: 0 12PX;
+  width: $buttonBackWidth;
+  background-color: $buttonAddBg;
+  border-color: $buttonAddBg;
+}
+
+.button-save:hover {
+  background-color: $buttonAddBg;
+  border-color: $buttonAddBg;
+  opacity: 0.8;
+}
+
+// element input 重置
+
+.el-input__inner {
+  height: $inputHeight;
+  line-height: $inputHeight;
+}
+
+//  element textarea 限制拉伸
+
+.el-textarea__inner {
+  resize: none;
+}
+
+// element table 重置
+.el-table {
+  color: $tablecl
+}
+
+.table-table .el-table th>.cell {
+  padding-left: 14PX;
+  padding-right: 14PX;
+}
+
+.table-table .el-table thead tr th {
+  background-color: $tableHeaderBg;
+  color: $tableHeadercl;
+  font-size: $tableHeaderfs;
+}
+
+.el-checkbox__inner {
+  height: 18PX;
+  width: 18PX;
+}
+
+.el-checkbox__inner::after {
+  height: 9PX;
+  left: 6PX;
+}
+
+
+// element 按钮 颜色重置
+.button-search,
+.button-search:focus,
+.button-search:active {
+  background-color: $buttonSearchBg;
+  border-color: $buttonSearchBg;
+  color: $buttonColor;
+}
+
+.button-search:hover {
+  background-color: $buttonSearchBg;
+  border-color: $buttonSearchBg;
+  color: $buttonColor;
+  opacity: 0.8;
+}
+
+.button-add,
+.button-add:focus,
+.button-add:active {
+  background-color: $buttonAddBg;
+  border-color: $buttonAddBg;
+  color: $buttonColor;
+}
+
+.button-add:hover {
+  background-color: $buttonAddBg;
+  border-color: $buttonAddBg;
+  color: $buttonColor;
+  opacity: 0.8;
+}
+
+.button-edit,
+.button-edit:focus,
+.button-edit:active {
+  background-color: $buttonEditBg;
+  border-color: $buttonEditBg;
+  color: $buttonColor;
+}
+
+.button-edit:hover {
+  background-color: $buttonEditBg;
+  border-color: $buttonEditBg;
+  color: $buttonColor;
+  opacity: 0.8;
+}
+
+.button-delete,
+.button-delete:focus,
+.button-delete:active {
+  background-color: $buttonDeleteBg;
+  border-color: $buttonDeleteBg;
+  color: $buttonColor;
+}
+
+.button-delete:hover {
+  background-color: $buttonDeleteBg;
+  border-color: $buttonDeleteBg;
+  color: $buttonColor;
+  opacity: 0.8;
+}
+
+.button-detail,
+.button-detail:focus,
+.button-detail:active {
+  background-color: $buttonAddBg;
+  border-color: $buttonAddBg;
+  color: $buttonColor;
+}
+
+.button-detail:hover {
+  background-color: $buttonAddBg;
+  border-color: $buttonAddBg;
+  color: $buttonColor;
+  opacity: 0.8;
+}
+
+// element 消息提示
+.el-message {
+  font-size: 14px;
+}
+
+.el-table__empty-block {
+  min-height: 48px;
+}
+
+.el-table__empty-text {
+  line-height: 48px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}

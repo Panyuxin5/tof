@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'FZZZHONGJW--GB1-0';
+    src: url('FZZZHONGJW--GB1-0.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DIN-Medium';
+    src: url('DIN\ Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DIN-Bold';
+    src: url('DIN-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SourceHanSansCN-Medium';
+    src: url('SourceHanSansCN-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

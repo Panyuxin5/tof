@@ -1,0 +1,110 @@
+.mg-lf{
+  margin-left: 20px;
+}
+.mes-form-content{
+    background-color: #fff;
+    .mes-form-tit{
+        font-size: 18px;
+        color: #333;
+        padding-left: 20px;
+        font-weight: 600;
+        margin: 0px;
+        padding-top: 24px;
+    }
+  .mes-form-box{
+      width: 80%;
+      margin: auto;
+      padding-bottom:22px;
+    }
+  }
+
+
+
+  .mes-details-content{
+    background-color: #fff;
+    .mes-details-tit{
+        font-size: 18px;
+        color: #333;
+        padding-left: 20px;
+        font-weight: 600;
+        margin: 0px;
+        padding-top: 24px;
+    }
+  .mes-details-box{
+      width: 90%;
+      margin: auto;
+      padding-bottom:22px;
+    }
+    .mes-details-item{
+      p{
+        font-weight: 600;
+        font-size: 15px;
+      }
+    }
+    ul{
+      list-style-type: none;
+      li{
+        line-height: 36px;
+        color: #999;
+        font-size: 14px;
+      }
+    }
+  }
+
+
+  .mes-check-content{
+    font-size: 13px;
+    .mes-check-tit{
+      margin: 5px;
+      color: #999;
+    }
+  }
+
+  .no-function{
+    min-height: calc(100vh - 60px);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .nofunc-cont{
+      img{
+        width: 360px;
+        height: 330px;
+      }
+      p{
+        color: #999;
+        font-size: 22px;
+        margin-top: 20px;
+        width: 360px;
+        text-align: center;
+      }
+    }
+    
+}
+
+.mes-dialog{
+  .el-divider--horizontal{
+    margin: 0 0 10px 0;
+  }
+  .dialog-tit{
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .dialog-box{
+    margin-top: -24px;
+    .dialog-box-tit{
+      font-size: 13px;
+      margin-bottom: 10px;
+      span{
+        color:#999;
+      }
+    }
+    .dialog-table{
+      height:400px;
+
+      
+    }
+  }
+  
+}
